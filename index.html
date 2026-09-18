@@ -1,24 +1,604 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>النصر | بيت الأناقة</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-<style>
-:root{--black:#11100e;--paper:#f6f2e9;--cream:#e9dfcc;--gold:#b99452;--muted:#8e887d;--line:#d9d0c0}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--black);font-family:Cairo,sans-serif}.serif{font-family:'Playfair Display',serif}.container{width:min(1180px,calc(100% - 40px));margin:auto}.top{background:var(--black);color:#eee;text-align:center;padding:9px;font-size:11px;letter-spacing:1px}.nav{height:82px;background:var(--paper);display:flex;align-items:center;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}.navin{display:flex;align-items:center;justify-content:space-between;gap:28px}.brand{display:flex;align-items:center;gap:12px;color:var(--black);text-decoration:none}.brand img{width:45px;height:45px;border-radius:50%;object-fit:cover;border:1px solid var(--gold)}.brand i{font-size:28px;color:var(--gold)}.brand strong{font-family:'Playfair Display';font-size:25px}.brand small{display:block;font-size:8px;letter-spacing:3px;color:var(--muted);font-family:Cairo}.links{display:flex;gap:30px;font-size:13px}.links a{color:var(--black);text-decoration:none}.links a:hover,.admin:hover{color:var(--gold)}.admin{border:0;background:none;font:inherit;cursor:pointer}.user{font-size:12px;color:var(--gold);border:1px solid #d9c8a5;border-radius:30px;padding:8px 13px}.hero{min-height:590px;background:var(--black);color:#fff;position:relative;overflow:hidden}.hero:before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 75% 45%,#5c4725 0,transparent 25%),linear-gradient(90deg,transparent 45%,#b9945212),url('https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=1800&q=85') center/cover;opacity:.72}.hero:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,#11100e 3%,#11100ebb 45%,#11100e22)}.heroIn{position:relative;z-index:1;min-height:590px;display:flex;align-items:center}.heroCopy{max-width:590px}.eyebrow{color:#d8bc82;font-size:12px;letter-spacing:3px}.hero h1{font-size:clamp(48px,7vw,86px);line-height:1.12;margin:20px 0 16px;font-weight:700}.hero h1 span{color:#d8bc82}.hero p{color:#d5d0c8;line-height:2;max-width:470px}.buttons{display:flex;gap:12px;margin-top:30px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;gap:10px;text-decoration:none;border:1px solid var(--gold);padding:13px 24px;border-radius:2px;font:600 13px Cairo;cursor:pointer}.primary{background:var(--gold);color:#17130c}.secondary{color:#e5d9c4}.btn:hover{filter:brightness(1.1);transform:translateY(-2px)}.intro{display:grid;grid-template-columns:1fr 1fr;gap:60px;padding:90px 0 55px}.intro h2,.sectionTitle h2{font:700 43px 'Playfair Display';margin:8px 0}.intro p{color:#756e64;line-height:2}.stats{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);align-items:center}.stat{text-align:center;padding:24px;border-left:1px solid var(--line)}.stat:last-child{border:0}.stat b{font:700 28px 'Playfair Display';color:var(--gold);display:block}.stat span{font-size:11px;color:var(--muted)}.collection{padding:65px 0}.sectionTitle{text-align:center;margin-bottom:35px}.sectionTitle p{color:var(--gold);font-size:11px;letter-spacing:3px}.sectionTitle h2{font-size:42px}.tools{display:flex;justify-content:space-between;gap:14px;align-items:center;margin-bottom:24px}.search{background:transparent;border:1px solid var(--line);padding:11px 15px;border-radius:2px;width:230px;font-family:Cairo}.filters{display:flex;gap:8px}.filter{background:transparent;border:0;padding:9px 14px;font:12px Cairo;cursor:pointer;color:var(--muted)}.filter.active{color:var(--black);border-bottom:2px solid var(--gold)}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.card{background:#fff;border:1px solid #e2dacb;position:relative;transition:.3s}.card:hover{transform:translateY(-7px);box-shadow:0 15px 30px #55451d18}.pic{aspect-ratio:1/.98;overflow:hidden;background:#e8e1d5;position:relative}.pic img{width:100%;height:100%;object-fit:cover;transition:.5s}.card:hover .pic img{transform:scale(1.06)}.tag{position:absolute;top:12px;right:12px;background:var(--black);color:#eed8aa;padding:5px 9px;font-size:9px}.cardbody{padding:16px}.cardbody h3{font-size:14px;margin:0 0 7px}.price{color:var(--gold);font-weight:800}.order{width:100%;margin-top:15px;border:1px solid var(--gold);background:transparent;padding:10px;color:var(--black);font:600 11px Cairo;cursor:pointer}.order:hover{background:var(--gold)}.banner{margin:20px 0 90px;background:var(--black);color:#fff;padding:55px;display:flex;justify-content:space-between;align-items:center;gap:25px}.banner h2{font:700 35px 'Playfair Display';margin:8px 0}.banner p{color:#aaa;font-size:13px}.footer{background:var(--black);color:#eee;padding:45px 0}.footerin{display:flex;justify-content:space-between;align-items:center}.footer small{color:#888}.modal{position:fixed;inset:0;background:#000b;z-index:50;display:none;align-items:center;justify-content:center;padding:20px}.modal.open{display:flex}.box{background:var(--paper);width:min(650px,100%);max-height:90vh;overflow:auto;padding:28px;border-radius:3px}.box h2{margin-top:0;font-family:'Playfair Display'}.field{width:100%;padding:12px;margin:5px 0;background:#fff;border:1px solid var(--line);font-family:Cairo}.row{display:flex;gap:10px}.close{float:left;background:none;border:0;font-size:24px;cursor:pointer}.adminList{margin-top:18px}.adminItem{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding:10px 0;font-size:12px}.danger{color:#a64235;background:none;border:0;cursor:pointer;font-family:Cairo}.success{color:#56835a;background:none;border:0;cursor:pointer;font-family:Cairo}.chatBtn{position:fixed;bottom:24px;left:24px;z-index:30;width:58px;height:58px;border-radius:50%;border:0;background:var(--gold);font-size:21px;cursor:pointer}.chat{position:fixed;bottom:92px;left:24px;z-index:30;width:310px;height:350px;background:var(--paper);border:1px solid var(--gold);display:none;flex-direction:column;box-shadow:0 15px 35px #0004}.chat.open{display:flex}.chatHead{background:var(--black);color:#fff;padding:14px;display:flex;justify-content:space-between}.messages{flex:1;padding:14px;font-size:12px;overflow:auto}.chatInput{display:flex;padding:8px;border-top:1px solid var(--line)}.chatInput input{flex:1;border:1px solid var(--line);padding:8px}.chatInput button{background:var(--gold);border:0;padding:0 14px}
-@media(max-width:800px){.links{display:none}.container{width:min(100% - 28px,600px)}.hero,.heroIn{min-height:520px}.hero h1{font-size:54px}.intro{grid-template-columns:1fr;gap:25px;padding:60px 0 35px}.grid{grid-template-columns:repeat(2,1fr);gap:12px}.tools{display:block}.search{width:100%;margin-bottom:15px}.banner{padding:30px;display:block}.banner .btn{margin-top:18px}.footerin{display:block;text-align:center}.footerin .brand{justify-content:center;margin-bottom:15px}}
-@media(max-width:430px){.grid{grid-template-columns:1fr 1fr}.cardbody{padding:12px}.hero h1{font-size:45px}.stats{grid-template-columns:1fr}.stat{border-left:0;border-bottom:1px solid var(--line)}.stat:last-child{border:0}}
-</style></head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>النصر | Boutique Luxury</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Playfair+Display:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: '#120f0d',
+            panel: '#1b1714',
+            gold: '#c9a96a',
+            goldSoft: '#e7d5aa',
+            cream: '#f7f3ed',
+            muted: '#c8bda9',
+            stone: '#f2eee7'
+          },
+          boxShadow: {
+            glow: '0 20px 60px rgba(201, 169, 106, 0.18)'
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    :root {
+      --ink: #120f0d;
+      --ink-2: #1b1714;
+      --gold: #c9a96a;
+      --gold-2: #e7d5aa;
+      --cream: #f7f3ed;
+      --muted: #a79c8b;
+      --line: rgba(201, 169, 106, 0.26);
+    }
+
+    html { scroll-behavior: smooth; }
+    body {
+      background: linear-gradient(180deg, #f7f3ed 0%, #f1eae0 100%);
+      color: var(--ink);
+      font-family: 'Cairo', sans-serif;
+    }
+
+    .font-display {
+      font-family: 'Playfair Display', serif;
+    }
+
+    .luxury-shell {
+      background: rgba(255,255,255,0.25);
+      border: 1px solid rgba(201,169,106,0.2);
+      backdrop-filter: blur(10px);
+    }
+
+    .hero-bg {
+      background:
+        linear-gradient(90deg, rgba(18,15,13,0.88) 0%, rgba(18,15,13,0.55) 55%, rgba(18,15,13,0.28) 100%),
+        url('https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+    }
+
+    .gold-btn {
+      background: linear-gradient(135deg, #f3dfb3 0%, #d7b16b 40%, #b98b3d 100%);
+      color: #1d150d;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .gold-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 18px 30px rgba(201,169,106,0.42);
+    }
+
+    .soft-card {
+      background: rgba(255,255,255,0.5);
+      border: 1px solid rgba(201,169,106,0.18);
+      box-shadow: 0 15px 35px rgba(17, 15, 13, 0.04);
+    }
+
+    .product-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+      border: 1px solid rgba(201,169,106,0.2);
+      background: rgba(255,255,255,0.7);
+    }
+
+    .product-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 25px 45px rgba(17,15,13,0.08);
+      border-color: rgba(201,169,106,0.6);
+    }
+
+    .modal-bg {
+      background: rgba(18,15,13,0.78);
+      backdrop-filter: blur(8px);
+    }
+
+    .glass-input {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(201,169,106,0.3);
+      color: white;
+    }
+
+    .hidden-fade { display: none !important; }
+  </style>
+</head>
 <body>
-<div class="top">شحن خاص وتجربة استثنائية — أهلاً بك في بيت الأناقة</div>
-<header class="nav"><div class="container navin"><a class="brand" href="#top"><img id="logo" style="display:none" alt="شعار"><i id="logoIcon" class="fa-solid fa-crown"></i><div><strong>النصر</strong><small>LUXURY HOUSE</small></div></a><nav class="links"><a href="#collection">المجموعة</a><a href="#offers">العروض</a><a href="#about">عن المتجر</a><button class="admin" onclick="openAdminLogin()">الإدارة</button></nav><span id="userBadge" class="user">زائر</span></div></header>
-<section id="top" class="hero"><div class="container heroIn"><div class="heroCopy"><div class="eyebrow">THE ART OF ELEGANCE</div><h1>أناقة<br><span>تتحدث عنك</span></h1><p>قطع مختارة بعناية لمن يبحث عن حضور مختلف. اكتشف مجموعتنا الجديدة من الألبسة والإكسسوارات الفاخرة.</p><div class="buttons"><a class="btn primary" href="#collection">اكتشف المجموعة <i class="fa-solid fa-arrow-left"></i></a><a class="btn secondary" href="#offers">العروض الخاصة</a></div></div></div></section>
-<main class="container"><section class="intro" id="about"><div><div class="eyebrow">NASSR PHILOSOPHY</div><h2>الفخامة<br>في أبسط تفاصيلها</h2></div><div><p>نؤمن أن الأناقة ليست مجرد مظهر، بل إحساس يرافقك في كل خطوة. لذلك نختار لك قطعاً تجمع بين الجودة، الذوق، والحضور الذي لا يُنسى.</p></div></section><div class="stats"><div class="stat"><b>+500</b><span>عميل يثق بنا</span></div><div class="stat"><b>100%</b><span>اختيار بعناية</span></div><div class="stat"><b>24/7</b><span>خدمة العملاء</span></div></div><section class="collection" id="collection"><div class="sectionTitle"><p>CURATED FOR YOU</p><h2>مختارات الموسم</h2></div><div class="tools"><div class="filters"><button class="filter active" data-cat="all">الكل</button><button class="filter" data-cat="clothes">الألبسة</button><button class="filter" data-cat="accessories">الإكسسوارات</button><button class="filter" data-cat="offers">العروض</button></div><input id="search" class="search" placeholder="ابحث عن منتج..." oninput="render()"></div><div id="products" class="grid"></div></section><section id="offers" class="banner"><div><div class="eyebrow">PRIVATE OFFER</div><h2>اختيارك الأجمل<br>بسعر استثنائي</h2><p>تسوق الآن واستفد من عروضنا المحدودة.</p></div><a class="btn primary" href="#collection">تسوق الآن</a></section></main>
-<footer class="footer"><div class="container footerin"><a class="brand"><i class="fa-solid fa-crown"></i><div><strong style="color:#fff">النصر</strong><small style="color:#888">LUXURY HOUSE</small></div></a><small>© 2025 متجر النصر — صُنع بذوق</small></div></footer>
-<button class="chatBtn" onclick="toggleChat()"><i class="fa-solid fa-comment-dots"></i></button><div id="chat" class="chat"><div class="chatHead">خدمة العملاء <button onclick="toggleChat()" style="color:white;background:none;border:0;font-size:20px">×</button></div><div id="messages" class="messages">أهلاً بك في متجر النصر. كيف نساعدك؟</div><div class="chatInput"><input id="chatText" placeholder="اكتب رسالتك" onkeypress="if(event.key==='Enter')sendChat()"><button onclick="sendChat()">إرسال</button></div></div>
-<div id="loginModal" class="modal"><div class="box" style="max-width:390px"><button class="close" onclick="closeModal('loginModal')">×</button><h2>دخول الإدارة</h2><input id="password" class="field" type="password" placeholder="كلمة المرور"><button class="btn primary" style="width:100%;justify-content:center;margin-top:10px" onclick="checkPassword()">دخول</button><small style="color:var(--muted);display:block;text-align:center;margin-top:12px">الافتراضية: 2010</small></div></div>
-<div id="adminModal" class="modal"><div class="box"><button class="close" onclick="closeModal('adminModal')">×</button><h2>لوحة الإدارة</h2><h4>شعار المتجر الخارجي</h4><div class="row"><input id="logoInput" class="field" placeholder="رابط صورة الشعار"><button class="btn primary" onclick="saveLogo()">حفظ</button></div><h4>إضافة منتج</h4><input id="pTitle" class="field" placeholder="اسم المنتج"><div class="row"><input id="pPrice" class="field" placeholder="السعر"><select id="pCategory" class="field"><option value="clothes">ألبسة</option><option value="accessories">إكسسوارات</option><option value="offers">عروض</option></select></div><input id="pImage" class="field" placeholder="رابط صورة المنتج"><button class="btn primary" style="width:100%;justify-content:center" onclick="addProduct()">إضافة المنتج</button><h4>إدارة المنتجات</h4><div id="adminList" class="adminList"></div><h4>رقم الواتساب</h4><div class="row"><input id="phone" class="field" placeholder="963900000000"><button class="btn primary" onclick="savePhone()">حفظ</button></div></div></div>
-<div id="welcome" class="modal"><div class="box" style="max-width:410px;text-align:center"><i class="fa-solid fa-crown gold" style="font-size:42px"></i><h2>مرحباً بك في النصر</h2><p style="color:var(--muted)">أدخل بياناتك لتجربة شخصية</p><input id="userName" class="field" placeholder="الاسم الكامل"><select id="userGender" class="field"><option value="">اختر الجنس</option><option>ذكر</option><option>أنثى</option></select><button class="btn primary" style="width:100%;justify-content:center;margin-top:8px" onclick="saveUser()">دخول المتجر</button></div></div>
-<script>
-const $=id=>document.getElementById(id),key='nassr_products';let phone=localStorage.getItem('nassr_whatsapp')||'963900000000',active='all',products=JSON.parse(localStorage.getItem(key)||'null')||[['��ميص كلاسيكي فاخر','150 $','clothes'],['بدلة رسمية أنيقة','350 $','clothes'],['ساعة ذهبية فاخرة','250 $','accessories'],['نظارة شمسية عصرية','80 $','accessories'],['طقم النخبة','299 $','offers'],['خصم 50% على القمصان','75 $','offers']].map((x,i)=>({id:Date.now()+i,title:x[0],price:x[1],category:x[2],published:true,image:'https://placehold.co/800x800/222019/d4af37?text='+encodeURIComponent(x[0])}));localStorage.setItem(key,JSON.stringify(products));
-function saveUser(){let n=$('userName').value.trim(),g=$('userGender').value;if(!n||!g)return alert('يرجى إدخال البيانات');localStorage.setItem('nassr_user_name',n);localStorage.setItem('nassr_user_gender',g);$('welcome').classList.remove('open');$('userBadge').textContent=(g==='ذكر'?'السيد ':'السيدة ')+n}function render(){let q=$('search').value.toLowerCase();let list=products.filter(p=>p.published&&(active==='all'||p.category===active)&&p.title.toLowerCase().includes(q));$('products').innerHTML=list.map(p=>`<article class="card"><div class="pic"><img src="${p.image}" alt="${p.title}"><span class="tag">مختار بعناية</span></div><div class="cardbody"><h3>${p.title}</h3><span class="price">${p.price}</span><button class="order" onclick="order(${p.id})">اطلب عبر الواتساب <i class="fa-brands fa-whatsapp"></i></button></div></article>`).join('')||'<p style="grid-column:1/-1;text-align:center;color:var(--muted);padding:50px">لا توجد منتجات مطابقة.</p>'}function order(id){let p=products.find(x=>x.id===id),n=localStorage.getItem('nassr_user_name')||'زائر';open('https://wa.me/'+phone+'?text='+encodeURIComponent('مرحباً متجر النصر 🏆\nأرغب بطلب: '+p.title+'\nالسعر: '+p.price+'\nالعميل: '+n+'\nصورة المنتج: '+p.image),'_blank')}function openAdminLogin(){$('loginModal').classList.add('open');$('password').focus()}function closeModal(id){$(id).classList.remove('open')}function checkPassword(){if($('password').value==='2010'){closeModal('loginModal');$('adminModal').classList.add('open');$('logoInput').value=localStorage.getItem('nassr_logo')||'';$('phone').value=phone;adminRender()}else alert('كلمة المرور غير صحيحة')}function saveLogo(){let v=$('logoInput').value.trim();v?localStorage.setItem('nassr_logo',v):localStorage.removeItem('nassr_logo');applyLogo();alert('تم تحديث الشعار')}function applyLogo(){let v=localStorage.getItem('nassr_logo');if(v){$('logo').src=v;$('logo').style.display='block';$('logoIcon').style.display='none'}}function addProduct(){let t=$('pTitle').value.trim(),pr=$('pPrice').value.trim();if(!t||!pr)return alert('أدخل اسم المنتج والسعر');products.push({id:Date.now(),title:t,price:pr,category:$('pCategory').value,published:true,image:$('pImage').value.trim()||'https://placehold.co/800x800/222019/d4af37?text=Product'});localStorage.setItem(key,JSON.stringify(products));render();adminRender();['pTitle','pPrice','pImage'].forEach(x=>$(x).value='')}function adminRender(){$('adminList').innerHTML=products.map(p=>`<div class="adminItem"><span>${p.title} <b style="color:var(--gold)">${p.price}</b></span><span><button class="success" onclick="toggleP(${p.id})">${p.published?'إخفاء':'نشر'}</button><button class="danger" onclick="deleteP(${p.id})">حذف</button></span></div>`).join('')}function toggleP(id){let p=products.find(x=>x.id===id);p.published=!p.published;localStorage.setItem(key,JSON.stringify(products));render();adminRender()}function deleteP(id){products=products.filter(x=>x.id!==id);localStorage.setItem(key,JSON.stringify(products));render();adminRender()}function savePhone(){phone=$('phone').value.replace(/\D/g,'');localStorage.setItem('nassr_whatsapp',phone);alert('تم حفظ الرقم')}function toggleChat(){$('chat').classList.toggle('open')}function sendChat(){let i=$('chatText'),m=i.value.trim();if(!m)return;$('messages').innerHTML+='<p style="color:var(--gold);margin-top:12px">أنت: '+m+'</p><p style="color:var(--muted)">شكراً لرسالتك، سيتواصل فريقنا معك قريباً.</p>';i.value=''}document.querySelectorAll('.filter').forEach(b=>b.onclick=()=>{document.querySelectorAll('.filter').forEach(x=>x.classList.remove('active'));b.classList.add('active');active=b.dataset.cat;render()});let n=localStorage.getItem('nassr_user_name'),g=localStorage.getItem('nassr_user_gender');if(n&&g){$('userBadge').textContent=(g==='ذكر'?'السيد ':'السيدة ')+n}else $('welcome').classList.add('open');applyLogo();render();
-</script></body></html>
+  <div class="top-0 bg-[#1a120c] text-[#f4e7cf] text-center text-[10px] md:text-xs tracking-[0.28em] py-2">NASSR LUXURY • حرير، ذوق، حضور لا يُنسى</div>
+
+  <header class="sticky top-0 z-50 bg-[#f7f3ed]/90 backdrop-blur border-b border-[#d7c9b4]">
+    <div class="container mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#top" class="flex items-center gap-3">
+        <div class="w-12 h-12 rounded-full border border-[#c9a96a] bg-[#f7f3ed] flex items-center justify-center overflow-hidden">
+          <img id="brandLogo" class="hidden w-full h-full object-cover" alt="شعار المتجر" />
+          <i id="brandLogoIcon" class="fa-solid fa-crown text-[#c9a96a] text-2xl"></i>
+        </div>
+        <div>
+          <div class="font-display text-2xl text-[#1a120c] leading-none">النصر</div>
+          <div class="text-[8px] tracking-[0.3em] text-[#8d7d68]">LUXURY HOUSE</div>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-[#1a120c]">
+        <a href="#collection" class="hover:text-[#b98b3d] transition">المجموعة</a>
+        <a href="#offers" class="hover:text-[#b98b3d] transition">العروض</a>
+        <a href="#about" class="hover:text-[#b98b3d] transition">عننا</a>
+        <button onclick="openAdminLogin()" class="hover:text-[#b98b3d] transition">الإدارة</button>
+      </nav>
+
+      <div id="userBadge" class="rounded-full border border-[#d8c39b] bg-[#f4e9d4] px-3 py-2 text-xs font-semibold text-[#7b5c2b]">زائر</div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero-bg relative overflow-hidden">
+      <div class="container mx-auto px-4 py-20 md:py-28">
+        <div class="grid md:grid-cols-[1.2fr_0.8fr] items-center gap-10">
+          <div class="text-white z-10 relative">
+            <div class="text-[11px] md:text-xs tracking-[0.32em] text-[#e7d5aa] mb-5">NASSR COLLECTION 2025</div>
+            <h1 class="font-display text-5xl md:text-7xl leading-[0.96] mb-5">
+              أناقة<br>
+              <span class="text-[#e7d5aa]">تركب مزاجك</span>
+            </h1>
+            <p class="text-[#e7dfd8] max-w-xl text-base md:text-lg leading-8">
+              اكتشف تشكيلة مختارة بعناية من الألبسة والإكسسوارات الفاخرة، بصياغة تجمع بين الكلاسيك والحداثة في كل قطعة.
+            </p>
+            <div class="flex flex-wrap gap-3 mt-8">
+              <a href="#collection" class="gold-btn rounded-full px-6 py-3 font-bold inline-flex items-center gap-2">تصفح المجموعة <i class="fa-solid fa-arrow-left"></i></a>
+              <a href="#offers" class="border border-[#d7b16b] text-[#f7e7c2] rounded-full px-6 py-3 font-bold inline-flex items-center gap-2">العروض المميزة</a>
+            </div>
+          </div>
+
+          <div class="hidden md:flex justify-center">
+            <div class="relative w-[360px] h-[360px] rounded-full border border-[#d7b16b]/60 p-6 rotate-12 shadow-glow">
+              <div class="w-full h-full rounded-full border border-[#d7b16b]/40 bg-gradient-to-br from-[#c9a96a]/20 to-transparent flex items-center justify-center -rotate-12">
+                <div class="text-center">
+                  <i class="fa-solid fa-gem text-[120px] text-[#d7b16b]"></i>
+                  <div class="font-display text-5xl text-[#f3dfb3] mt-4">Luxury</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mx-auto px-4 -mt-6 relative z-20">
+      <div class="grid grid-cols-2 md:grid-cols-4 divide-x divide-y md:divide-y-0 divide-[#d9c6a0] bg-[#fffdfa]/80 border border-[#dbd0bc] shadow-lg">
+        <div class="text-center py-6">
+          <div class="font-display text-3xl text-[#b98b3d]">500+</div>
+          <div class="text-[11px] tracking-[0.2em] text-[#7f7262] mt-2">عميل سعيد</div>
+        </div>
+        <div class="text-center py-6">
+          <div class="font-display text-3xl text-[#b98b3d]">24/7</div>
+          <div class="text-[11px] tracking-[0.2em] text-[#7f7262] mt-2">خدمة</div>
+        </div>
+        <div class="text-center py-6">
+          <div class="font-display text-3xl text-[#b98b3d]">100%</div>
+          <div class="text-[11px] tracking-[0.2em] text-[#7f7262] mt-2">تجهيز يدوي</div>
+        </div>
+        <div class="text-center py-6">
+          <div class="font-display text-3xl text-[#b98b3d]">VIP</div>
+          <div class="text-[11px] tracking-[0.2em] text-[#7f7262] mt-2">تجربة خاصة</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container mx-auto px-4 py-20">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <div class="text-[11px] tracking-[0.28em] text-[#b98b3d] mb-2">ABOUT US</div>
+          <h2 class="font-display text-4xl md:text-5xl text-[#120f0d] mb-5">الفخامة في كلّ تفاصيلنا</h2>
+        </div>
+        <div class="text-[#584f46] leading-8 text-base md:text-lg">
+          متجر النصر يرحب بك بأسلوب يشبه عالم الموضة الفاخر: دقيق، أنيق، ومصنوع بعناية لتمنح كل قطعة منك حضوراً لا يُنسى. كل منتج اخترناه ليضمن جودة عالية وطابع راقٍ يتوافق مع أسلوبك اليومي أو الاحتفالي.
+        </div>
+      </div>
+    </section>
+
+    <section id="collection" class="container mx-auto px-4 pb-20">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-5 mb-8">
+        <div>
+          <div class="text-[11px] tracking-[0.28em] text-[#b98b3d]">COLLECTION</div>
+          <h2 class="font-display text-4xl md:text-5xl text-[#120f0d] mt-2">مختاراتنا الذهبية</h2>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-2">
+          <button data-filter="all" class="filter-btn active rounded-full border border-[#c9a96a] bg-[#f8eed9] text-[#1a120c] px-4 py-2 text-xs font-semibold">الكل</button>
+          <button data-filter="clothes" class="filter-btn rounded-full border border-[#d7c9b4] px-4 py-2 text-xs font-semibold text-[#3d352d]">الألبسة</button>
+          <button data-filter="accessories" class="filter-btn rounded-full border border-[#d7c9b4] px-4 py-2 text-xs font-semibold text-[#3d352d]">الإكسسوارات</button>
+          <button data-filter="offers" class="filter-btn rounded-full border border-[#d7c9b4] px-4 py-2 text-xs font-semibold text-[#3d352d]">العروض</button>
+        </div>
+      </div>
+
+      <div class="flex justify-between items-center gap-4 mb-6">
+        <input id="searchInput" type="text" placeholder="ابحث عن منتج..." class="w-full md:w-72 border border-[#d8c39b] rounded-full bg-white/60 px-4 py-3 text-sm outline-none focus:border-[#b98b3d]" />
+      </div>
+
+      <div id="productsGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"></div>
+    </section>
+
+    <section id="offers" class="container mx-auto px-4 pb-20">
+      <div class="rounded-[30px] border border-[#d1b270] bg-[#1b1714] text-white px-6 py-8 md:px-10 md:py-12 flex flex-col md:flex-row justify-between items-center gap-6 shadow-glow">
+        <div>
+          <div class="text-[11px] tracking-[0.28em] text-[#e7d5aa]">LIMITED OFFER</div>
+          <h3 class="font-display text-3xl md:text-5xl mt-3">خصمنا الهادف على مجموعتنا</h3>
+        </div>
+        <a href="#collection" class="gold-btn rounded-full px-7 py-3 font-bold inline-flex items-center gap-2">تسوق الآن <i class="fa-solid fa-arrow-left"></i></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-[#120f0d] text-[#f1eadb] py-10 border-t border-[#2b231d]">
+    <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-full border border-[#c9a96a] flex items-center justify-center">
+          <i class="fa-solid fa-crown text-[#c9a96a]"></i>
+        </div>
+        <div>
+          <div class="font-display text-xl">النصر</div>
+          <div class="text-[9px] tracking-[0.2em] text-[#8b7a6c]">LUXURY HOUSE</div>
+        </div>
+      </div>
+      <div class="text-sm text-[#c8bda9]">© 2025 متجر النصر — كل قطعة تحمل قصة</div>
+    </div>
+  </footer>
+
+  <button onclick="toggleChat()" class="fixed bottom-5 left-5 z-40 w-14 h-14 rounded-full border-2 border-[#f2dfaf] bg-gradient-to-br from-[#f3dfb3] to-[#c9a96a] text-[#1a120c] shadow-glow text-xl">
+    <i class="fa-solid fa-comments"></i>
+  </button>
+
+  <div id="chatBox" class="hidden fixed bottom-24 left-5 z-40 w-[320px] h-[360px] bg-[#f7f3ed] border border-[#d7c9b4] shadow-[0_20px_35px_rgba(0,0,0,0.15)] flex flex-col">
+    <div class="bg-[#1a120c] text-[#f3dfb3] p-3 flex justify-between items-center">
+      <span class="font-semibold">خدمة العملاء</span>
+      <button onclick="toggleChat()" class="text-xl text-white">×</button>
+    </div>
+    <div id="chatMessages" class="flex-1 p-3 overflow-auto text-sm leading-7 text-[#2c241e]">
+      <div class="mb-3 max-w-[80%] rounded-xl bg-[#f0e9df] p-2.5 border border-[#e2d4b7]">أهلاً بك! كيف يمكننا مساعدتك اليوم؟</div>
+    </div>
+    <div class="p-2 border-t border-[#e3d9ca] flex gap-2">
+      <input id="chatInput" type="text" placeholder="اكتب رسالتك..." class="flex-1 border border-[#d7c9b4] rounded-lg px-2 py-2 text-sm bg-white outline-none" onkeypress="if(event.key==='Enter'){sendChatMessage();}" />
+      <button onclick="sendChatMessage()" class="gold-btn px-3 rounded-lg text-xs font-bold">إرسال</button>
+    </div>
+  </div>
+
+  <div id="adminLoginModal" class="modal-bg fixed inset-0 z-50 hidden items-center justify-center p-4">
+    <div class="w-full max-w-sm bg-[#1b1714] border border-[#c9a96a] p-6 rounded-[24px] text-white">
+      <div class="flex items-center justify-between mb-5">
+        <div class="text-[#e7d5aa] text-xl font-bold">دخول الإدارة</div>
+        <button onclick="closeAdminLogin()" class="text-2xl text-[#ddd]">×</button>
+      </div>
+      <input id="adminPassword" type="password" placeholder="كلمة المرور" class="glass-input w-full rounded-xl p-3 text-right mb-4" onkeypress="if(event.key==='Enter'){checkAdminPassword();}" />
+      <button onclick="checkAdminPassword()" class="gold-btn w-full rounded-xl py-3 font-bold">دخول</button>
+      <div class="text-center text-[#a79c8b] text-xs mt-4">الافتراضية: 2010</div>
+    </div>
+  </div>
+
+  <div id="adminPanel" class="modal-bg fixed inset-0 z-50 hidden items-center justify-center p-4">
+    <div class="w-full max-w-3xl bg-[#1b1714] border border-[#c9a96a] rounded-[24px] p-5 max-h-[90vh] overflow-y-auto">
+      <div class="flex items-center justify-between pb-4 border-b border-[#2b231d] mb-5">
+        <div class="text-[#e7d5aa] text-xl font-bold">لوحة الإدارة</div>
+        <button onclick="toggleAdminPanel()" class="text-2xl text-[#ddd]">×</button>
+      </div>
+
+      <div class="space-y-5">
+        <div class="border border-[#2b231d] rounded-2xl p-4">
+          <div class="text-[#e7d5aa] text-sm font-bold mb-3">تغيير شعار المتجر</div>
+          <div class="flex gap-2">
+            <input id="logoInput" placeholder="رابط صورة الشعار" class="flex-1 rounded-xl bg-[#120f0d] border border-[#3f352d] px-3 py-2 text-sm text-white" />
+            <button onclick="saveBrandLogo()" class="gold-btn px-4 rounded-xl font-bold text-sm">حفظ</button>
+          </div>
+        </div>
+
+        <div class="border border-[#2b231d] rounded-2xl p-4">
+          <div class="text-[#e7d5aa] text-sm font-bold mb-3">إضافة منتج جديد</div>
+          <div class="grid md:grid-cols-2 gap-3">
+            <input id="prodTitle" placeholder="اسم المنتج" class="rounded-xl bg-[#120f0d] border border-[#3f352d] px-3 py-2 text-sm text-white" />
+            <input id="prodPrice" placeholder="السعر" class="rounded-xl bg-[#120f0d] border border-[#3f352d] px-3 py-2 text-sm text-white" />
+            <input id="prodImage" placeholder="رابط صورة المنتج" class="md:col-span-2 rounded-xl bg-[#120f0d] border border-[#3f352d] px-3 py-2 text-sm text-white" />
+            <select id="prodCategory" class="md:col-span-2 rounded-xl bg-[#120f0d] border border-[#3f352d] px-3 py-2 text-sm text-white">
+              <option value="clothes">الألبسة</option>
+              <option value="accessories">الإكسسوارات</option>
+              <option value="offers">العروض</option>
+            </select>
+          </div>
+          <button onclick="addNewProduct()" class="gold-btn w-full rounded-xl py-3 font-bold mt-4">إضافة المنتج</button>
+        </div>
+
+        <div class="border border-[#2b231d] rounded-2xl p-4">
+          <div class="text-[#e7d5aa] text-sm font-bold mb-3">رقم الواتساب</div>
+          <div class="flex gap-2">
+            <input id="whatsappInput" placeholder="963900000000" class="flex-1 rounded-xl bg-[#120f0d] border border-[#3f352d] px-3 py-2 text-sm text-white" />
+            <button onclick="saveWhatsappNumber()" class="gold-btn px-4 rounded-xl font-bold text-sm">حفظ</button>
+          </div>
+        </div>
+
+        <div class="border border-[#2b231d] rounded-2xl p-4">
+          <div class="text-[#e7d5aa] text-sm font-bold mb-3">إدارة المنتجات</div>
+          <div id="adminProductsList" class="space-y-2"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="welcomeModal" class="modal-bg fixed inset-0 z-[60] flex items-center justify-center p-4">
+    <div class="w-full max-w-md rounded-[30px] border border-[#c9a96a] bg-[#1b1714] p-7 text-white text-center shadow-glow">
+      <div class="w-20 h-20 mx-auto rounded-full border border-[#e7d5aa] bg-[#2b231d] flex items-center justify-center mb-5">
+        <i class="fa-solid fa-crown text-[#e7d5aa] text-4xl"></i>
+      </div>
+      <div class="text-[11px] tracking-[0.3em] text-[#e7d5aa] mb-3">WELCOME</div>
+      <h2 class="font-display text-4xl mb-4">مرحباً بك في متجر النصر</h2>
+      <p class="text-[#c8bda9] text-sm mb-5">أدخل اسمك وجنسك لتجربة تتناسب مع ذوقك</p>
+      <input id="userNameInput" type="text" placeholder="الاسم الكامل" class="glass-input w-full rounded-xl p-3 text-right mb-3" />
+      <select id="userGenderInput" class="glass-input w-full rounded-xl p-3 text-right mb-5">
+        <option value="">اختر الجنس</option>
+        <option value="ذكر">ذكر</option>
+        <option value="أنثى">أنثى</option>
+      </select>
+      <button onclick="saveUserData()" class="gold-btn w-full rounded-xl py-3 font-bold">دخول المتجر</button>
+    </div>
+  </div>
+
+  <script>
+    const DEFAULT_PRODUCTS = [
+      { id: 1, title: 'قميص فاخر كلاسيكي', price: '150 $', image: 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80', category: 'clothes', published: true },
+      { id: 2, title: 'بدلة أنيقة', price: '350 $', image: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=900&q=80', category: 'clothes', published: true },
+      { id: 3, title: 'ساعة ذهبية', price: '250 $', image: 'https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=900&q=80', category: 'accessories', published: true },
+      { id: 4, title: 'نظارة شمسية', price: '80 $', image: 'https://images.unsplash.com/photo-1577803947579-9f8a9d0b2b2d?auto=format&fit=crop&w=900&q=80', category: 'accessories', published: true },
+      { id: 5, title: 'عرض خاص: طقم فاخر', price: '299 $', image: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80', category: 'offers', published: true },
+      { id: 6, title: 'خصم 50% على القمصان', price: '75 $', image: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=80', category: 'offers', published: true }
+    ];
+
+    let products = JSON.parse(localStorage.getItem('nassr_products')) || DEFAULT_PRODUCTS;
+    let whatsappNumber = localStorage.getItem('nassr_whatsapp') || '963900000000';
+    let activeFilter = 'all';
+
+    const adminPassword = '2010';
+
+    function saveUserData() {
+      const name = document.getElementById('userNameInput').value.trim();
+      const gender = document.getElementById('userGenderInput').value;
+      if (!name || !gender) {
+        alert('يرجى إدخال الاسم والجنس');
+        return;
+      }
+      localStorage.setItem('nassr_user_name', name);
+      localStorage.setItem('nassr_user_gender', gender);
+      document.getElementById('welcomeModal').classList.add('hidden-fade');
+      renderUserBadge();
+    }
+
+    function renderUserBadge() {
+      const name = localStorage.getItem('nassr_user_name');
+      const gender = localStorage.getItem('nassr_user_gender');
+      const badge = document.getElementById('userBadge');
+      if (name && gender) {
+        badge.textContent = `${gender === 'ذكر' ? 'السيد' : 'السيدة'} ${name}`;
+      }
+    }
+
+    function renderProducts() {
+      const searchText = document.getElementById('searchInput')?.value.trim().toLowerCase() || '';
+      const grid = document.getElementById('productsGrid');
+      const filtered = products.filter(product => {
+        const matchFilter = activeFilter === 'all' ? true : product.category === activeFilter;
+        const matchSearch = product.title.toLowerCase().includes(searchText);
+        return product.published && matchFilter && matchSearch;
+      });
+
+      if (!filtered.length) {
+        grid.innerHTML = '<div class="col-span-full py-16 text-center text-[#7b6d5d]">لا توجد منتجات مطابقة في هذا القسم.</div>';
+        return;
+      }
+
+      grid.innerHTML = filtered.map(product => `
+        <article class="product-card rounded-[28px] overflow-hidden">
+          <div class="relative">
+            <img src="${product.image}" alt="${product.title}" class="w-full h-72 object-cover" />
+            <span class="absolute top-4 right-4 bg-[#120f0d] text-[#e7d5aa] text-[10px] px-2.5 py-1 rounded-full tracking-[0.15em]">مختار</span>
+          </div>
+          <div class="p-5">
+            <h3 class="font-bold text-lg text-[#1a120c]">${product.title}</h3>
+            <div class="flex items-center justify-between mt-4">
+              <div class="text-[#b98b3d] text-2xl font-bold">${product.price}</div>
+              <button onclick="orderProduct(${product.id})" class="gold-btn rounded-full px-4 py-2 text-xs font-bold">اطلب الآن</button>
+            </div>
+          </div>
+        </article>
+      `).join('');
+    }
+
+    function orderProduct(productId) {
+      const product = products.find(p => p.id === productId);
+      const userName = localStorage.getItem('nassr_user_name') || 'زائر';
+      const gender = localStorage.getItem('nassr_user_gender') || 'غير محدد';
+      const message = `مرحباً متجر النصر 🏆\n\n` +
+        `📦 الطلب: ${product.title}\n` +
+        `💰 السعر: ${product.price}\n` +
+        `👤 العميل: ${userName}\n` +
+        `🚻 الجنس: ${gender}\n` +
+        `🖼️ الصورة: ${product.image}\n`;
+      window.open(`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`, '_blank');
+    }
+
+    function openAdminLogin() {
+      document.getElementById('adminLoginModal').classList.remove('hidden');
+      document.getElementById('adminLoginModal').classList.add('flex');
+      document.getElementById('adminPassword').focus();
+    }
+
+    function closeAdminLogin() {
+      document.getElementById('adminLoginModal').classList.add('hidden');
+      document.getElementById('adminLoginModal').classList.remove('flex');
+    }
+
+    function toggleAdminPanel() {
+      const panel = document.getElementById('adminPanel');
+      panel.classList.toggle('hidden');
+      panel.classList.toggle('flex');
+      if (!panel.classList.contains('hidden')) {
+        renderAdminProducts();
+      }
+    }
+
+    function checkAdminPassword() {
+      const password = document.getElementById('adminPassword').value;
+      if (password === adminPassword) {
+        closeAdminLogin();
+        toggleAdminPanel();
+      } else {
+        alert('كلمة المرور غير صحيحة');
+      }
+    }
+
+    function addNewProduct() {
+      const title = document.getElementById('prodTitle').value.trim();
+      const price = document.getElementById('prodPrice').value.trim();
+      const image = document.getElementById('prodImage').value.trim() || 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80';
+      const category = document.getElementById('prodCategory').value;
+
+      if (!title || !price) {
+        alert('يرجى إدخال اسم المنتج والسعر');
+        return;
+      }
+
+      products.push({ id: Date.now(), title, price, image, category, published: true });
+      localStorage.setItem('nassr_products', JSON.stringify(products));
+      document.getElementById('prodTitle').value = '';
+      document.getElementById('prodPrice').value = '';
+      document.getElementById('prodImage').value = '';
+      renderProducts();
+      renderAdminProducts();
+      alert('تمت إضافة المنتج بنجاح');
+    }
+
+    function deleteProduct(id) {
+      if (!confirm('هل تريد حذف هذا المنتج؟')) return;
+      products = products.filter(product => product.id !== id);
+      localStorage.setItem('nassr_products', JSON.stringify(products));
+      renderProducts();
+      renderAdminProducts();
+    }
+
+    function togglePublishProduct(id) {
+      const product = products.find(p => p.id === id);
+      if (!product) return;
+      product.published = !product.published;
+      localStorage.setItem('nassr_products', JSON.stringify(products));
+      renderProducts();
+      renderAdminProducts();
+    }
+
+    function renderAdminProducts() {
+      const adminProductsList = document.getElementById('adminProductsList');
+      adminProductsList.innerHTML = products.map(product => `
+        <div class="flex items-center justify-between gap-3 border-b border-[#2b231d] py-3">
+          <div class="flex items-center gap-3 min-w-0">
+            <img src="${product.image}" class="w-12 h-12 object-cover rounded-lg" alt="${product.title}" />
+            <div class="min-w-0">
+              <div class="text-sm font-bold text-white truncate">${product.title}</div>
+              <div class="text-xs text-[#c8bda9]">${product.price}</div>
+            </div>
+          </div>
+          <div class="flex gap-2 text-xs">
+            <button onclick="togglePublishProduct(${product.id})" class="${product.published ? 'text-green-400' : 'text-gray-400'}">${product.published ? 'إخفاء' : 'نشر'}</button>
+            <button onclick="deleteProduct(${product.id})" class="text-red-400">حذف</button>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function saveBrandLogo() {
+      const logoUrl = document.getElementById('logoInput').value.trim();
+      if (logoUrl) {
+        localStorage.setItem('nassr_logo', logoUrl);
+      } else {
+        localStorage.removeItem('nassr_logo');
+      }
+      applyBrandLogo();
+      alert('تم حفظ الشعار');
+    }
+
+    function applyBrandLogo() {
+      const logoUrl = localStorage.getItem('nassr_logo');
+      const logoElm = document.getElementById('brandLogo');
+      const logoIcon = document.getElementById('brandLogoIcon');
+      document.getElementById('logoInput').value = logoUrl || '';
+
+      if (logoUrl) {
+        logoElm.src = logoUrl;
+        logoElm.classList.remove('hidden');
+        logoIcon.classList.add('hidden');
+      } else {
+        logoElm.classList.add('hidden');
+        logoIcon.classList.remove('hidden');
+      }
+    }
+
+    function saveWhatsappNumber() {
+      const value = document.getElementById('whatsappInput').value.trim();
+      if (!value) {
+        alert('يرجى إدخال رقم الواتساب');
+        return;
+      }
+      whatsappNumber = value;
+      localStorage.setItem('nassr_whatsapp', value);
+      alert('تم حفظ ر��م الواتساب');
+    }
+
+    function toggleChat() {
+      const box = document.getElementById('chatBox');
+      box.classList.toggle('hidden');
+      box.classList.toggle('flex');
+    }
+
+    function sendChatMessage() {
+      const value = document.getElementById('chatInput').value.trim();
+      if (!value) return;
+      const chatMessages = document.getElementById('chatMessages');
+      const userName = localStorage.getItem('nassr_user_name') || 'زائر';
+      chatMessages.innerHTML += `
+        <div class="mb-3 max-w-[80%] ml-auto rounded-xl bg-[#e9d9ae] p-2.5 border border-[#d8c39b] text-[#1a120c]">
+          <strong>${userName}:</strong> ${value}
+        </div>
+      `;
+      document.getElementById('chatInput').value = '';
+      chatMessages.scrollTop = chatMessages.scrollHeight;
+
+      setTimeout(() => {
+        chatMessages.innerHTML += `
+          <div class="mb-3 max-w-[80%] rounded-xl bg-[#f0e9df] p-2.5 border border-[#e2d4b7] text-[#2c241e]">
+            شكراً لرسالتك! سيقوم فريقنا بالرد عليك قريباً.
+          </div>
+        `;
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+      }, 900);
+    }
+
+    document.querySelectorAll('.filter-btn').forEach(button => {
+      button.addEventListener('click', () => {
+        activeFilter = button.dataset.filter;
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active', 'bg-[#f8eed9]', 'border-[#c9a96a]', 'text-[#1a120c]'));
+        button.classList.add('active', 'bg-[#f8eed9]', 'border-[#c9a96a]', 'text-[#1a120c]');
+        renderProducts();
+      });
+    });
+
+    document.getElementById('searchInput').addEventListener('input', renderProducts);
+    document.getElementById('whatsappInput').value = whatsappNumber;
+    renderUserBadge();
+    applyBrandLogo();
+    renderProducts();
+
+    const savedName = localStorage.getItem('nassr_user_name');
+    const savedGender = localStorage.getItem('nassr_user_gender');
+    if (!(savedName && savedGender)) {
+      document.getElementById('welcomeModal').classList.remove('hidden');
+      document.getElementById('welcomeModal').classList.add('flex');
+    }
+  </script>
+</body>
+</html>
